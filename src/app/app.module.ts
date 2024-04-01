@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
-import { RecipeBookComponent } from './recipe-book/recipe-book.component';
 import { HeaderComponent } from './header/header.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { RecipesListComponent } from './recipes/recipes-list/recipes-list.component';
@@ -16,7 +15,6 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
   declarations: [
     AppComponent,
     ShoppingListComponent,
-    RecipeBookComponent,
     HeaderComponent,
     RecipesComponent,
     RecipesListComponent,
